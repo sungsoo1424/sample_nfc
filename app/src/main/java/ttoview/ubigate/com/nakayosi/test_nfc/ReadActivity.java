@@ -50,8 +50,7 @@ public class ReadActivity extends ActionBarActivity {
     private String[][] mTechLists;
     private int scanCount;
 
-    public static final int TYPE_TEXT = 1;
-    public static final int TYPE_URI = 2;
+
     private String connectUrl;
     private static final String baseUrl = "http://ttoview.com";
 
