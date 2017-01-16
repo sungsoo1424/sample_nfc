@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simplenfc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="11" />
+
+    <uses-feature android:name="android.hardware.nfc" android:required="false" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ttoview.ubigate.com.nakayosi.test_nfc.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="ttoview.ubigate.com.nakayosi.test_nfc.RegisterActivity"
+            android:label="@string/title_activity_read" >
+        </activity>
+        <activity
+            android:name="ttoview.ubigate.com.nakayosi.test_nfc.ReadActivity"
+            android:label="@string/title_activity_read" >
+        </activity>
+        <activity
+            android:name="ttoview.ubigate.com.nakayosi.test_nfc.WriteActivity"
+            android:label="@string/title_activity_write" >
+        </activity>
+        <activity
+            android:name="ttoview.ubigate.com.nakayosi.test_nfc.DownLoadActivity"
+            android:label="@string/title_activity_write" >
+        </activity>
+    </application>
+
+</manifest>

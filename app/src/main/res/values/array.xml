@@ -1,0 +1,16 @@
+<resources>
+    <string-array name="place">
+        <item >관광지 : 북촌</item>
+        <item >관광지 : 청담</item>
+    </string-array>
+
+    <string-array name="type">
+        <item >카드타입 : 0000</item>
+        <item >카드타입 : 0001</item>
+        <item >카드타입 : 0002</item>
+        <item >카드타입 : 0100</item>
+        <item >카드타입 : 0101</item>
+        <item >카드타입 : 0200</item>
+        <item >카드타입 : FF00</item>
+    </string-array>
+</resources>
