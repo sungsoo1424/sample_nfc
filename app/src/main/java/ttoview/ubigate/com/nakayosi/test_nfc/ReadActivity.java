@@ -55,6 +55,7 @@ public class ReadActivity extends ActionBarActivity {
     private String connectUrl;
     private static final String baseUrl = "http://ttoview.com";
 
+    //테스트
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
